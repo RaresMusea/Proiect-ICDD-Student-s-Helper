@@ -1,0 +1,135 @@
+{"intents": [
+{"tag":"salutari",
+"patterns":["Hey","Hello","Salut","Buna ziua","buna ziua","Salutare","Buna","care-i treaba?","Cum iti merge?"],
+"responses":["Salut!","Hey!","Salutare","Ce pot face pentru tine?","Cu ce te pot ajuta?"]
+},
+
+{"tag":"goodbye",
+"patterns":["Trebuie sa plec.Ne auzim mai tarziu!","ne auzim mai tarziu","ma grabesc si va trebui sa plec","la revedere","a fost o adevarata placere sa vorbesc cu tine!","ne mai auzim!","nu","Nu","Momentan nu","Deocamndata,nu","Poate mai tarziu"],
+"responses":["Imi pare sincer rau sa aud ca trebuie sa pleci :(","Ne auzim mai tarziu!Pa!","Sa ai o zi frumoasa!","Ramas bun,prietene!","Mi-a parut bine ca am reusit sa vorbim astazi! Toate cele bune! Salut!","OK!Nu uita ca sunt aici daca ai nevoie de mine!Ne mai auzim,prietene!"]
+},
+
+{
+"tag":"varsta",
+"patterns":["Cati ani ai?","Care e varsta ta?","Ce varsta ai?"],
+"responses":["Am 21 de ani.Tu cati ani ai?","Am 21 de ani.Tu?"]
+},
+
+{"tag":"ocupatie",
+"patterns":["Cu ce te ocupi?","Care este ocupatia ta?","Care sunt hobby-urile tale?"],
+"responses":["Am fost programat pentru a comunica cu oamenii.","Imi place sa citesc si sa comunic."]
+},
+
+{
+"tag":"nume",
+"patterns":["Care este numele tau?","Cum as putea sa iti spun?","Cum te numesti?"],
+"responses":["Numele meu este Thomas.Tu cum te numesti?","Ma numesc Thomas","Ma cheama Thomas.Pe tine cum te cheama?","Ma numesc Thomas, insa toti cei apropiati imi spun Tommy.Tu cum te numesti,prietene?"]
+},
+
+{
+"tag":"web",
+"patterns":["Deschide Chrome!","Lanseaza browser-ul google chrome","deschide un browser"],
+"responses":["Imediat...","Cu siguranta!","De indata!"]
+},
+
+{
+"tag":"internet",
+"patterns":["Hai sa navigam pe internet!"],
+"responses":["Haide!Pe ce site ai dori sa intram?","Imediat?Ce site doresti sa accesezi?","Bineinteles,doar spune-mi site-ul,iar de restul ma ocup eu!"]},
+
+{
+"tag":"screenshot",
+"patterns":["Fa un screenshot!","Fa un screenshot acum","Poti sa faci un screenshot?"],
+"responses":["Gata! Il poti gasi in folder-ul proiectului intitulat print-screens!"]},
+
+{
+"tag":"ask",
+"patterns":[" Ce faci?"],
+"responses":["Multumesc de intrebare.Stau la dispozitia ta si incerc sa comunic cu tine si sa iti usurez munca pe acest dispozitiv."]},
+
+{
+"tag":"age",
+"patterns":["19 ani","Am 19 ani","19"],
+"responses":["Multi ani inainte! Asta inseamna ca te-ai nascut in 2001,nu-i asa?","In ce luna esti nascut?"]},
+
+{
+"tag":"yes",
+"patterns":["da","Da"],
+"responses":["Super","Super.Cu ce as putea sa te ajut mai departe?","Cool","Interesant","Foarte tare","Pot face si altceva pentru tine?","Foarte tare.Cu ce altceva as putea sa te mai ajut?"]},
+
+{
+"tag":"month",
+"patterns":["august","sunt nascut in august"],
+"responses":["Nice!Se pare ca suntem nascuti in aceeasi luna!","Ce coincidenta!","Ce tare!La fel ca si mine,de altfel!"]},
+
+{
+"tag":"month2",
+"patterns":["ianuarie","februarie","martie","aprilie","mai","iunie","iulie","septembrie","octombrie","noiembrie","decembrie"],
+"responses":["Ma gandeam ca poate suntetm nascuti in aceeasi luna,insa m-am inselat! :)"]}, 
+
+{
+"tag":"english",
+"patterns":["Te pricepi la engleza?","Cunosti limba engleza?"],
+"responses":["Din pacate,nu prea.Am fost programat sa vorbesc fluent doar limba romana.Daca tu te pricepi la engleza,poate ma vei invata si pe mine intr-o buna zi,caci sunt dornic de a invata!","Imi pare rau,dar nu stiu engleaza deloc.Poate intr-o buna zi ma vei invata si pe mine,daca doresti."]},
+
+{
+"tag":"english-ans",
+"patterns":["Sigur ca da","Te invat cu placere","Bineinteles"],
+"responses":["Cool!","Super tare,multumesc!","Mersi mult!"]},
+  
+{
+"tag":"nume_interlocutor",
+"patterns":["Rares","Ma numesc Rares","Numele meu este Rares","rares"],
+"responses":["Incantat de cunostina,Rares! Te pot ajuta cu ceva?","Presimt ca asta e inceputul unei frumoase prietenii,Rares!Spune-mi, te rog, cu ce as putea sa te ajut astazi? "]},
+
+{
+"tag":"music",
+"patterns":["As vrea sa ascult niste muzica","haide sa ascultam niste muzica"],
+"responses":["Imediat!","Chiar voiam sa iti propun asta!","Desigur!"]},
+
+{
+"tag":"merci",
+"patterns":["Multumesc mult","mersi","esti genial","mersi","multumesc ca m-ai ajutat"],
+"responses":["Oricand!Ma bucur ca am putut sa te ajut!Spune-mi te rog,daca mai pot face si altceva pentru tine!","Cu multa placere!Te mai pot ajuta si cu altceva?"]},
+
+{
+"tag":"camin",
+"patterns":["Camin","camin","cazarea studentilor","As vrea sa aflu despre cazarea studentilor din sibiu"],
+"responses":["Despre ce camin ai vrea sa afli mai multe informatii?In Sibiu sunt 7 camine studentesti disponibile acum"]},
+
+{
+"tag":"caminul 1",
+"patterns":["1","caminul 1","as vrea sa aflu mai multe despre caminul 1."],
+"responses":["Iata cateva informatii pe care le-am gasit pentru tine:"]},
+
+
+{
+  "tag":"caminul 2",
+  "patterns":["2","caminul 2","as vrea sa aflu mai multe despre caminul 2."],
+  "responses":["Iata cateva informatii pe care le-am gasit pentru tine:"]},
+
+{
+  "tag":"caminul 3",
+  "patterns":["3","caminul 3","as vrea sa aflu mai multe despre caminul 3."],
+  "responses":["Iata cateva informatii pe care le-am gasit pentru tine:"]},
+
+{
+  "tag":"caminul 4",
+  "patterns":["4","caminul 4","as vrea sa aflu mai multe despre caminul 4."],
+  "responses":["Iata cateva informatii pe care le-am gasit pentru tine:"]},
+
+{
+  "tag":"caminul 6",
+  "patterns":["2","caminul 6","as vrea sa aflu mai multe despre caminul 6."],
+  "responses":["Iata cateva informatii pe care le-am gasit pentru tine:"]},
+
+{
+  "tag":"caminul 7",
+  "patterns":["7","caminul 7","as vrea sa aflu mai multe despre caminul 7."],
+  "responses":["Iata cateva informatii pe care le-am gasit pentru tine:"]}
+]}
+
+
+
+
+
